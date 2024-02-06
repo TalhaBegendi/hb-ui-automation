@@ -58,9 +58,6 @@ Bu README dosyası, Hepsiburada'nın UI test otomasyonu projesi için gerekli bi
       * Seçilen tarayıcıya göre switch-case yapısı kullanılarak ilgili tarayıcı çalıştırılır.
    2. **WebDrivers Hakkında**
       * DriverFactory sınıfındaki kodlar bu classta kullanılmaktadır.
-        
-**Not**
-   * İstenilen tüm stepler yapılmıştır.
 
 ## Yazar
 
