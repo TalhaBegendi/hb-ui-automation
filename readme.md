@@ -61,4 +61,8 @@ Bu README dosyası, Hepsiburada'nın UI test otomasyonu projesi için gerekli bi
 
 ## Yazar
 
+<<<<<<< HEAD
 Talha Beğendi
+=======
+Talha Beğendi
+>>>>>>> b5c01dc0119125f1ff248ce96ba65a516c32bd35
