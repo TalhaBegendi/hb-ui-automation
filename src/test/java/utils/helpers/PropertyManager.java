@@ -10,6 +10,8 @@ public class PropertyManager {
 
     private Map<String, Properties> map = new HashMap<>();
 
+    public static PropertyManager propertyManager = new PropertyManager();
+
     public PropertyManager() {
         loadProperties("env.properties");
     }

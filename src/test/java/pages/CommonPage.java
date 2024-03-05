@@ -24,8 +24,8 @@ public class CommonPage extends Action {
         assertTextEqual(findElement(key), text);
     }
 
-    public void clickRandomProduct(String key) {
-        super.clickRandomProduct(key);
+    public void clickRandomProducts(String key) {
+        clickRandomProduct(key);
     }
 
     public void dropDown(String key, String value){

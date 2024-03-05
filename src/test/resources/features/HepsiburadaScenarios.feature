@@ -3,6 +3,7 @@ Feature: HepsiburadaCases
   Background:
     Given Click "common.cookieBannerApplyButton" element
     Then Check page url contains "https://www.hepsiburada.com"
+    And Wait for given seconds 1
     And Click "search.clickSearchbar" element
     And Fill "search.product" field with "iphone"
     And Click "search.clickSearchButton" element

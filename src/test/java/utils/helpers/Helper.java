@@ -14,9 +14,6 @@ import java.time.Duration;
 
 public class Helper {
     public WebDriver webDriver = null;
-
-    public static PropertyManager propertyManager = new PropertyManager();
-
     WebDrivers webDrivers = new WebDrivers();
 
     public Helper() {
@@ -34,8 +31,8 @@ public class Helper {
     public WebElement waitUntilElementIsVisible(WebElement element, long startTime) {
         webDriver.manage().timeouts().implicitlyWait(500, TimeUnit.MILLISECONDS);
         WebDriverWait subWait = new WebDriverWait(webDriver, Duration.ofMillis(1));
-        if ((System.currentTimeMillis() - startTime) > 10000) {
-            webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        if ((System.currentTimeMillis() - startTime) > 5000) {
+            webDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
             return null;
         }
         try {
@@ -51,8 +48,8 @@ public class Helper {
         WebDriver subDriver = webDriver;
         subDriver.manage().timeouts().implicitlyWait(500, TimeUnit.MILLISECONDS);
         WebDriverWait subWait = new WebDriverWait(subDriver, Duration.ofMillis(1));
-        if ((System.currentTimeMillis() - startTime) > 15000) {
-            webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        if ((System.currentTimeMillis() - startTime) > 5000) {
+            webDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
             return null;
         }
         try {

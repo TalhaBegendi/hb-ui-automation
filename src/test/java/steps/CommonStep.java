@@ -20,7 +20,7 @@ public class CommonStep {
         page.tearDown();
     }
 
-    @Then("Click {string} element")
+    @And("Click {string} element")
     public void click(String key) {
         page.click(key);
     }
@@ -45,7 +45,7 @@ public class CommonStep {
 
     @And("Click {string} random product")
     public void randomProduct(String key) {
-        page.clickRandomProduct(key);
+        page.clickRandomProducts(key);
     }
 
     @And("Keep running codes in new tab")
@@ -74,8 +74,8 @@ public class CommonStep {
     }
 
     @Then("Check {string} like button for product")
-    public void checkInProductDetailLike(String test) {
-        page.checkInProductDetailLike(test);
+    public void checkInProductDetailLike(String text) {
+        page.checkInProductDetailLike(text);
     }
 
     @And("Get {string} text of field and assign it to variable {string}")

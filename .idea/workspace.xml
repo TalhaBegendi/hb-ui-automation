@@ -35,8 +35,8 @@
     &quot;Cucumber Java.Scenario: Login (1).executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Login.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Scenario 1.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Scenario 2.executor&quot;: &quot;Debug&quot;,
-    &quot;Cucumber Java.Scenario: Scenario 3.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Scenario 2.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Scenario 3.executor&quot;: &quot;Debug&quot;,
     &quot;Maven.hepsiburadaSeleniumProject [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.hepsiburadaSeleniumProject [install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.hepsiburadaSeleniumProject [test].executor&quot;: &quot;Run&quot;,
@@ -46,7 +46,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Talha Begendi/Desktop/hepsiburadaSeleniumProject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Talha Begendi/Desktop/hepsiburadaApiProject/HbApiProject&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -62,13 +62,14 @@
       <recent name="C:\Users\Talha Begendi\Desktop\HBSeleniumProject-main\test\src\main\resources\properties" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Talha Begendi\Desktop\hepsiburadaSeleniumProject\src\test\resources\features" />
+      <recent name="C:\Users\Talha Begendi\Desktop\hepsiburadaSeleniumProject\src\test\resources\elementValues" />
+      <recent name="C:\Users\Talha Begendi\Desktop\hepsiburadaSeleniumProject\src\test\resources\elementValues\a" />
+      <recent name="C:\Users\Talha Begendi\Desktop\hepsiburadaSeleniumProject\src\test\resources\features\a" />
       <recent name="C:\Users\Talha Begendi\Desktop\HBSeleniumProject-main\test\src\test\resources\properties" />
-      <recent name="C:\Users\Talha Begendi\Desktop\HBSeleniumProject-main\test\src\test\resources\features" />
-      <recent name="C:\Users\Talha Begendi\Desktop\HBSeleniumProject-main\test\src\test\resources\elementValues" />
-      <recent name="C:\Users\Talha Begendi\Desktop\HBSeleniumProject-main\test\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Scenario 3">
+  <component name="RunManager" selected="Cucumber Java.Feature: HepsiburadaScenarios">
     <configuration name="Feature: HepsiburadaScenarios" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HepsiburadaScenarios.feature" />
@@ -170,10 +171,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Scenario 3" />
         <item itemvalue="Cucumber Java.Feature: HepsiburadaScenarios" />
         <item itemvalue="Cucumber Java.Scenario: Scenario 1" />
         <item itemvalue="Cucumber Java.Scenario: Scenario 2" />
+        <item itemvalue="Cucumber Java.Scenario: Scenario 3" />
         <item itemvalue="Cucumber Java.Scenario: Case1" />
       </list>
     </recent_temporary>
@@ -195,5 +196,19 @@
       <updated>1706437784012</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utils/helpers/FileHelper.java</url>
+          <line>22</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

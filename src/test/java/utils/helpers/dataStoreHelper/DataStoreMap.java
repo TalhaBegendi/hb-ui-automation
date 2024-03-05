@@ -8,6 +8,7 @@ public class DataStoreMap {
     private Map<String, Object> dataStoreMap;
 
     public DataStoreMap(){
+
         dataStoreMap = new HashMap<>();
     }
 
@@ -16,6 +17,7 @@ public class DataStoreMap {
     }
 
     public Object getContext(String key){
+
         return dataStoreMap.get(key);
     }
 

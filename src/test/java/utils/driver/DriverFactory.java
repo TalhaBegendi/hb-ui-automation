@@ -13,9 +13,10 @@ public class DriverFactory {
     private WebDriver driver;
     String browserName;
     String domain;
+
     public  WebDriver initializeAndGetChromeDrivers(){
         System.setProperty("webdriver.http.factory", "jdk-http-client");
-        PropertyManager propertyManager = Helper.propertyManager;
+        PropertyManager propertyManager = PropertyManager.propertyManager;
         browserName = propertyManager.getProperty("env.properties","browser");
         domain = propertyManager.getProperty("env.properties", "domain");
         switch (browserName.toLowerCase()){

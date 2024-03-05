@@ -3,7 +3,10 @@ package utils.helpers.elementHelper;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+import lombok.Data;
+import lombok.Getter;
 
+@Getter
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class ElementResponse {
 
@@ -16,17 +19,4 @@ public class ElementResponse {
     @SerializedName("type")
     @Expose
     public String type;
-
-    public String getKey() {
-        return key;
-    }
-
-    public String getValue() {
-        return value;
-    }
-
-    public String getType() {
-        return type;
-    }
-
 }
